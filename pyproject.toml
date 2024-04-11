@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "Simple-InternetSpeed-Logger"
+version = "1.0.0"
+description = "Simple-InternetSpeed-Logger is a simple menu bar app for macOS to test internet bandwidth using speedtest.net."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.7.1,<3.8"
+rumps = "^0.4.0"
+py2app = "^0.28.7"
+numpy = "1.21"
+pandas = "1.3.5"
+matplotlib = ">=3.5,<3.6"
+seaborn = ">=0.12,<0.13"
+plotly = "==4.*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

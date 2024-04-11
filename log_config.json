@@ -1,0 +1,44 @@
+{
+    "version": 1,
+    "disable_existing_loggers": false,
+    "formatters": {
+        "simple": {
+            "format": "%(asctime)s %(name)s:%(lineno)s %(funcName)s pid=%(process)d [%(levelname)s]: %(message)s"
+        }
+    },
+
+    "handlers": {
+        "consoleHandler": {
+            "class": "logging.StreamHandler",
+            "level": "INFO",
+            "formatter": "simple",
+            "stream": "ext://sys.stdout"
+        },
+        "fileHandler": {
+            "class": "logging.handlers.RotatingFileHandler",
+            "level": "INFO",
+            "formatter": "simple",
+            "filename": "logs.log",
+            "mode": "a",
+            "maxBytes": 10000000,
+            "backupCount": 5
+        }
+    },
+
+    "loggers": {
+        "app": {
+            "level": "INFO",
+            "handlers": ["consoleHandler", "fileHandler"],
+            "propagate": false
+        },
+        "speedtester": {
+            "level": "INFO",
+            "handlers": ["consoleHandler", "fileHandler"],
+            "propagate": false
+        }
+    },
+
+    "root": {
+        "level": "DEBUG"
+    }
+}
