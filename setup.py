@@ -16,6 +16,7 @@ DATA_FILES = [
     "speedtest_cli.py"
 ]
 OPTIONS = {
+    'iconfile':"app.icns",
     'argv_emulation': True,
     'plist': {
         'LSUIElement': True,

@@ -2,6 +2,7 @@
 
 Simple-InternetSpeed-Logger is a simple menu bar app for macOS to test internet bandwidth using speedtest.net.
 Internet speed tests are often conducted, but most of them involve one-time measurements where speed is often discussed. However, internet speed can vary depending on factors such as time of day and PC environment. I believe it's more meaningful to understand this variability and discuss one's own internet environment. That's why this app runs in the menu bar and continuously measures internet speed in the background. It uses speedtest.net for internet speed measurement.
+You can check statistically which networks are faster or slower compared to others. You can also see when your main network performs well on which day of the week and at what time.
 
 ![Screenshot1](img/Screenshot1.png)
 
