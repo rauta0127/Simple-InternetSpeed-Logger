@@ -12,7 +12,9 @@ and you can export stats report plot or csv data.
 
 ## Installation
 
-* add with Release function
+Download latest version [release page](https://github.com/rauta0127/Simple-InternetSpeed-Logger/releases) and open it.
+
+You might have to right click/control-click and select open if you get a warning that the app is from an unidentified developer. Move it to Applications if you want.
 
 ## Environments
 I have confirmed that it works fine in the following environments.
