@@ -8,7 +8,9 @@ You can check statistically which networks are faster or slower compared to othe
 
 and you can export stats report plot or csv data.
 
-![newplot](img/newplot.png)
+![statsplot_sample](img/statsplot_sample.png)
+
+![Screenshot5](img/Screenshot5.png)
 
 ## Installation
 
@@ -29,6 +31,8 @@ You can start, pause, reset with button.
 
 ### Export Data
 You can export plot html and raw csv and log files.
+In the plots, you can see a box plot of download/upload speeds by network, a heatmap of speeds by day of the week and time for the main network, and the number of records. The network with the most records is defined as the main network. This allows you to see the speed differences between networks, as well as when the main network performs best on which day and time.
+In the CSV file, you can review raw data, including download/upload speeds, server information, client information, and more.
 
 ### Set Parametes
 You can change parameters of frequency and iterations.
